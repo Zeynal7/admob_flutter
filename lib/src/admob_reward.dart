@@ -15,7 +15,7 @@ class AdmobReward extends AdmobEventHandler {
   final void Function(AdmobAdEvent, Map<String, dynamic>) listener;
   final bool nonPersonalizedAds;
   String customData;
-  final String userId;
+  String userId;
 
   AdmobReward({
     this.adUnitId,
